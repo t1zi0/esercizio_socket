@@ -11,29 +11,22 @@ La repository contiene inoltre le soluzioni a quattro esercizi che estendono pro
 ```
 python-socket-examples/
 ├── README.md
-├── docs/
-│   └── technical_document.md       ← spiegazione dettagliata di ogni esercizio
-├── original/
+├── exercise_0/
 │   ├── tcp_server.py
 │   ├── tcp_client.py
 │   ├── udp_server.py
 │   └── udp_client.py
-├── exercise_0/                     ← versione refactored degli originali
-│   ├── tcp_server.py
-│   ├── tcp_client.py
+├── exercise_1/
 │   ├── udp_server.py
 │   └── udp_client.py
-├── exercise_1/                     ← server UDP con contatore PING
-│   ├── udp_server.py
-│   └── udp_client.py
-├── exercise_2/                     ← server TCP multi-client
+├── exercise_2/
 │   ├── tcp_server_sequential.py
 │   ├── tcp_server_threaded.py
 │   └── tcp_client.py
-├── exercise_3/                     ← simulazione canale inaffidabile
+├── exercise_3/
 │   ├── udp_server.py
 │   └── udp_client.py
-└── exercise_4/                     ← protocollo custom: calcolatrice su TCP
+└── exercise_4/
     ├── calc_server.py
     └── calc_client.py
 ```
